@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(AdventOfCode2024_3_2)
+
+add_compile_definitions(WORKSPACE_PATH="${CMAKE_CURRENT_SOURCE_DIR}/")
+
+file(GLOB SOURCES "*.cpp")
+add_executable(AdventOfCode2024_3_2 ${SOURCES})
